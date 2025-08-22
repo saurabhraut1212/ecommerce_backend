@@ -23,7 +23,7 @@ func NewAuthHandler(userRepo *repo.UserRepo, jwtSecret string) *AuthHandler {
 	}
 }
 
-func (h *AuthHandler) register(c *fiber.Ctx) error {
+func (h *AuthHandler) Register(c *fiber.Ctx) error {
 	req := struct {
 		Name     string `json:"name"`
 		Email    string `json:"email"`
