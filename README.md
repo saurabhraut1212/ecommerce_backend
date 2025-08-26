@@ -66,4 +66,7 @@ go run ./cmd/server
 https://web.postman.co/workspace/388302e8-5eb7-4c3f-821d-5523c39dad56/collection/26119400-da1f5e96-9041-4cf7-986a-26b27b561ce6?action=share&source=copy-link&creator=26119400
 
 Use the token generated after login in Authorization Header for all Product & Order routes
+
+## Deployed on AWS EC2 
+http://13.232.238.207:8088/api/products
   
